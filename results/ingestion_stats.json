@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-11-15T12:56:47.423238+00:00",
+  "corpus": {
+    "document_id": "ruot-oi-la-ruot",
+    "source": "ruotoilaruot.pdf",
+    "valid_pages": 358,
+    "pdf_load_time_sec": 24.2436
+  },
+  "embedding_model": {
+    "provider": "local (sentence-transformers)",
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "dimensions": 384,
+    "normalization": "L2 normalized embeddings (cosine similarity)",
+    "model_init_time_sec": 1.5281,
+    "cost_usd": 0.0
+  },
+  "vector_store": {
+    "backend": "ChromaDB PersistentClient",
+    "persist_directory": "results/chroma_db",
+    "distance_metric": "cosine (HNSW approximate nearest neighbor index, hnsw:space=cosine)"
+  },
+  "strategies": {
+    "A": {
+      "description": "Fixed-size chunking (size=500 chars, overlap=50 chars), no metadata filter at retrieval",
+      "params": {
+        "chunking": "fixed_size",
+        "size": 500,
+        "overlap": 50,
+        "use_metadata_filter": false
+      },
+      "chunk_stats": {
+        "num_chunks": 1133,
+        "total_chars": 468039,
+        "total_words_approx_tokens": 105477,
+        "char_len_min": 53,
+        "char_len_p25": 338,
+        "char_len_median": 499,
+        "char_len_mean": 413.1,
+        "char_len_p75": 500,
+        "char_len_p95": 500,
+        "char_len_max": 500
+      },
+      "timing_sec": {
+        "chunking": 0.0064,
+        "embedding": 79.0889,
+        "upsert": 2.1864,
+        "total_ingest": 105.5253
+      },
+      "cost_usd": 0.0,
+      "idempotency_check": {
+        "count_after_first_upsert": 1133,
+        "count_after_re_upsert": 1133,
+        "duplicates_created": 0
+      }
+    },
+    "B": {
+      "description": "Paragraph/heading structure-aware chunking (max_size=600 chars), no metadata filter at retrieval",
+      "params": {
+        "chunking": "by_paragraph",
+        "max_size": 600,
+        "use_metadata_filter": false
+      },
+      "chunk_stats": {
+        "num_chunks": 1058,
+        "total_chars": 428922,
+        "total_words_approx_tokens": 96368,
+        "char_len_min": 10,
+        "char_len_p25": 277,
+        "char_len_median": 442,
+        "char_len_mean": 405.41,
+        "char_len_p75": 550,
+        "char_len_p95": 592,
+        "char_len_max": 600
+      },
+      "timing_sec": {
+        "chunking": 0.027,
+        "embedding": 74.1891,
+        "upsert": 2.1911,
+        "total_ingest": 100.6508
+      },
+      "cost_usd": 0.0,
+      "idempotency_check": {
+        "count_after_first_upsert": 1058,
+        "count_after_re_upsert": 1058,
+        "duplicates_created": 0,
+        "obsolete_chunk_test_before_cleanup": 1059,
+        "obsolete_chunks_removed_on_update": 1,
+        "count_after_cleanup": 1058
+      }
+    },
+    "C": {
+      "description": "Same paragraph/heading chunking as B (max_size=600 chars), WITH pre-retrieval metadata filter (part) when question specifies filter",
+      "params": {
+        "chunking": "by_paragraph",
+        "max_size": 600,
+        "use_metadata_filter": true,
+        "filter_fields": [
+          "part"
+        ]
+      },
+      "chunk_stats": {
+        "num_chunks": 1058,
+        "total_chars": 428922,
+        "total_words_approx_tokens": 96368,
+        "char_len_min": 10,
+        "char_len_p25": 277,
+        "char_len_median": 442,
+        "char_len_mean": 405.41,
+        "char_len_p75": 550,
+        "char_len_p95": 592,
+        "char_len_max": 600
+      },
+      "timing_sec": {
+        "chunking": 0.027,
+        "embedding": 74.1891,
+        "upsert": 2.1137,
+        "total_ingest": 100.5734
+      },
+      "cost_usd": 0.0,
+      "idempotency_check": {
+        "count_after_first_upsert": 1058,
+        "count_after_re_upsert": 1058,
+        "duplicates_created": 0
+      }
+    }
+  }
+}

@@ -1,4 +1,6 @@
-# Core setup and PDF parsing. Choose and install an embedding SDK separately.
+# Core setup, PDF parsing, local SentenceTransformers embeddings, and ChromaDB store.
 psycopg[binary]==3.3.8
 pypdf>=5,<7
 python-dotenv>=1,<2
+sentence-transformers>=3.0.0
+chromadb>=0.5.0

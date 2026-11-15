@@ -4,6 +4,8 @@ starter/.venv/
 .env
 *.pyc
 ruotoilaruot.pdf
+results/chroma_db/
+*.sqlite3
 
 .env.*
 !.env.example
