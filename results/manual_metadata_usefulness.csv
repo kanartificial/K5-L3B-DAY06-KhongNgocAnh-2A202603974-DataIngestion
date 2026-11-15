@@ -1,0 +1,46 @@
+strategy,question_id,rank,chunk_id,source,page,part,section,question_filter,metadata_complete_and_accurate,filter_compliant,audit_note
+A,q16,1,ruot-oi-la-ruot_A_p053_c00,ruotoilaruot.pdf,53,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q16,2,ruot-oi-la-ruot_A_p055_c00,ruotoilaruot.pdf,55,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q16,3,ruot-oi-la-ruot_A_p267_c03,ruotoilaruot.pdf,267,PHAN_3,Vi khuẩn làm cho chúng ta béo như thế nào? Ba giả thuyết,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q16,1,ruot-oi-la-ruot_B_p053_c00,ruotoilaruot.pdf,53,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q16,2,ruot-oi-la-ruot_B_p055_c00,ruotoilaruot.pdf,55,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q16,3,ruot-oi-la-ruot_B_p217_c03,ruotoilaruot.pdf,217,PHAN_3,Sự phát triển của hệ vi khuẩn đường ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q16,1,ruot-oi-la-ruot_C_p053_c00,ruotoilaruot.pdf,53,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q16,2,ruot-oi-la-ruot_C_p055_c00,ruotoilaruot.pdf,55,PHAN_1,Cấu trúc của ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q16,3,ruot-oi-la-ruot_C_p217_c03,ruotoilaruot.pdf,217,PHAN_3,Sự phát triển của hệ vi khuẩn đường ruột,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q17,1,ruot-oi-la-ruot_A_p090_c00,ruotoilaruot.pdf,90,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q17,2,ruot-oi-la-ruot_A_p092_c00,ruotoilaruot.pdf,92,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q17,3,ruot-oi-la-ruot_A_p091_c01,ruotoilaruot.pdf,91,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q17,1,ruot-oi-la-ruot_B_p090_c00,ruotoilaruot.pdf,90,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q17,2,ruot-oi-la-ruot_B_p092_c00,ruotoilaruot.pdf,92,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q17,3,ruot-oi-la-ruot_B_p089_c02,ruotoilaruot.pdf,89,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q17,1,ruot-oi-la-ruot_C_p090_c00,ruotoilaruot.pdf,90,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q17,2,ruot-oi-la-ruot_C_p092_c00,ruotoilaruot.pdf,92,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q17,3,ruot-oi-la-ruot_C_p089_c02,ruotoilaruot.pdf,89,PHAN_1,Chứng dị ứng và không dung nạp,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q18,1,ruot-oi-la-ruot_A_p147_c00,ruotoilaruot.pdf,147,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+A,q18,2,ruot-oi-la-ruot_A_p364_c03,ruotoilaruot.pdf,364,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,"{""part"": ""PHAN_2""}",True,False,"Metadata của chunk đúng với trang 364, nhưng vi phạm filter yêu cầu {'part': 'PHAN_2'} (part thực tế = PHAN_3)"
+A,q18,3,ruot-oi-la-ruot_A_p124_c01,ruotoilaruot.pdf,124,PHAN_2,Các cơ quan của chúng ta vận chuyển thức ăn như thế nào,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+B,q18,1,ruot-oi-la-ruot_B_p154_c02,ruotoilaruot.pdf,154,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+B,q18,2,ruot-oi-la-ruot_B_p147_c00,ruotoilaruot.pdf,147,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+B,q18,3,ruot-oi-la-ruot_B_p154_c01,ruotoilaruot.pdf,154,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+C,q18,1,ruot-oi-la-ruot_C_p154_c02,ruotoilaruot.pdf,154,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+C,q18,2,ruot-oi-la-ruot_C_p147_c00,ruotoilaruot.pdf,147,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+C,q18,3,ruot-oi-la-ruot_C_p154_c01,ruotoilaruot.pdf,154,PHAN_2,Táo bón,"{""part"": ""PHAN_2""}",True,True,Đủ và khớp 100% với trang PDF gốc
+A,q19,1,ruot-oi-la-ruot_A_p320_c00,ruotoilaruot.pdf,320,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q19,2,ruot-oi-la-ruot_A_p348_c01,ruotoilaruot.pdf,348,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q19,3,ruot-oi-la-ruot_A_p335_c01,ruotoilaruot.pdf,335,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q19,1,ruot-oi-la-ruot_B_p320_c01,ruotoilaruot.pdf,320,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q19,2,ruot-oi-la-ruot_B_p335_c01,ruotoilaruot.pdf,335,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+B,q19,3,ruot-oi-la-ruot_B_p348_c01,ruotoilaruot.pdf,348,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q19,1,ruot-oi-la-ruot_C_p320_c01,ruotoilaruot.pdf,320,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q19,2,ruot-oi-la-ruot_C_p335_c01,ruotoilaruot.pdf,335,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+C,q19,3,ruot-oi-la-ruot_C_p348_c01,ruotoilaruot.pdf,348,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,None,True,,Đủ và khớp 100% với trang PDF gốc
+A,q20,1,ruot-oi-la-ruot_A_p392_c01,ruotoilaruot.pdf,392,CHU_THICH,Chú thích,"{""part"": ""CHU_THICH""}",True,True,Đủ và khớp 100% với trang PDF gốc
+A,q20,2,ruot-oi-la-ruot_A_p209_c00,ruotoilaruot.pdf,209,PHAN_3,Hệ miễn dịch và các vi khuẩn của chúng ta,"{""part"": ""CHU_THICH""}",True,False,"Metadata của chunk đúng với trang 209, nhưng vi phạm filter yêu cầu {'part': 'CHU_THICH'} (part thực tế = PHAN_3)"
+A,q20,3,ruot-oi-la-ruot_A_p354_c02,ruotoilaruot.pdf,354,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,"{""part"": ""CHU_THICH""}",True,False,"Metadata của chunk đúng với trang 354, nhưng vi phạm filter yêu cầu {'part': 'CHU_THICH'} (part thực tế = PHAN_3)"
+B,q20,1,ruot-oi-la-ruot_B_p392_c01,ruotoilaruot.pdf,392,CHU_THICH,Chú thích,"{""part"": ""CHU_THICH""}",True,True,Đủ và khớp 100% với trang PDF gốc
+B,q20,2,ruot-oi-la-ruot_B_p209_c00,ruotoilaruot.pdf,209,PHAN_3,Hệ miễn dịch và các vi khuẩn của chúng ta,"{""part"": ""CHU_THICH""}",True,False,"Metadata của chunk đúng với trang 209, nhưng vi phạm filter yêu cầu {'part': 'CHU_THICH'} (part thực tế = PHAN_3)"
+B,q20,3,ruot-oi-la-ruot_B_p354_c03,ruotoilaruot.pdf,354,PHAN_3,Về tính sạch sẽ và các vi khuẩn tốt,"{""part"": ""CHU_THICH""}",True,False,"Metadata của chunk đúng với trang 354, nhưng vi phạm filter yêu cầu {'part': 'CHU_THICH'} (part thực tế = PHAN_3)"
+C,q20,1,ruot-oi-la-ruot_C_p392_c01,ruotoilaruot.pdf,392,CHU_THICH,Chú thích,"{""part"": ""CHU_THICH""}",True,True,Đủ và khớp 100% với trang PDF gốc
+C,q20,2,ruot-oi-la-ruot_C_p391_c02,ruotoilaruot.pdf,391,CHU_THICH,Chú thích,"{""part"": ""CHU_THICH""}",True,True,Đủ và khớp 100% với trang PDF gốc
+C,q20,3,ruot-oi-la-ruot_C_p393_c00,ruotoilaruot.pdf,393,CHU_THICH,Chú thích,"{""part"": ""CHU_THICH""}",True,True,Đủ và khớp 100% với trang PDF gốc

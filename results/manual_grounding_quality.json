@@ -1,0 +1,132 @@
+{
+  "by_strategy": {
+    "A": {
+      "count_0": 1,
+      "count_1": 1,
+      "count_2": 3,
+      "distribution_0_1_2": "1/1/3",
+      "mean_out_of_2": 1.4
+    },
+    "B": {
+      "count_0": 1,
+      "count_1": 0,
+      "count_2": 4,
+      "distribution_0_1_2": "1/0/4",
+      "mean_out_of_2": 1.6
+    },
+    "C": {
+      "count_0": 1,
+      "count_1": 0,
+      "count_2": 4,
+      "distribution_0_1_2": "1/0/4",
+      "mean_out_of_2": 1.6
+    }
+  },
+  "items": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_A_p055_c00 (Rank 2, p.55)",
+      "reason": "Rank 2 chứa nguyên văn câu trả lời \"Tổng diện tích bề mặt của ống tiêu hóa lớn gấp khoảng 100 lần so với diện tích da của chúng ta\" và truy vết đúng trang 55."
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_A_p090_c00 (Rank 1, p.90)",
+      "reason": "Rank 1 (trang 90) nêu đủ cả điều kiện bình thường (ăn 1 quả táo/ngày không sao) lẫn ngoại lệ gây quá tải (thực phẩm khác thêm fructose như xốt cà chua, sữa chua ăn sáng, xúp đóng hộp)."
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "score": 0,
+      "top_evidence_chunk": "None (Ranks 1-3: p.147, p.364, p.124)",
+      "reason": "Không có bằng chứng: Top-3 trả về định nghĩa táo bón (trang 147), chất xơ nuôi vi khuẩn ở Phần 3 (trang 364, sai vùng filter PHAN_2) và phương châm ruột già (trang 124), hoàn toàn thiếu cơ chế chất xơ không hấp thu ở ruột non và gõ vào thành ruột già ở trang 149."
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_A_p320_c00 (Rank 1, p.320)",
+      "reason": "Rank 1 (trang 320) chứa đầy đủ khẳng định không nên dùng chất diệt khuẩn trong sinh hoạt bình thường và nêu rõ 2 trường hợp ngoại lệ (nhà có người ốm hoặc chó đi ị lên tấm thảm)."
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "score": 1,
+      "top_evidence_chunk": "ruot-oi-la-ruot_A_p392_c01 (Rank 1, p.392)",
+      "reason": "Rank 1 (trang 392) có chứa chi tiết \"tổng hợp ở tế bào Beta trong đảo tụy\" và \"làm giảm nồng độ Glucose trong máu\", nhưng do chia kích thước cố định 500 ký tự nên bị cắt mất câu mở đầu định nghĩa mục [6] Insulin (bắt đầu từ giữa từ \"ển hóa các mô mỡ...\"), thiếu ngữ cảnh định danh đầu mục và Rank 2-3 bị nhiễu bởi Phần 3 (trang 209, 354)."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_B_p055_c00 (Rank 2, p.55)",
+      "reason": "Rank 2 (trang 55) chứa trọn vẹn đoạn văn giải thích diện tích bề mặt ống tiêu hóa gấp khoảng 100 lần diện tích da và truy vết đúng nguồn."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_B_p090_c00 (Rank 1, p.90)",
+      "reason": "Rank 1 (trang 90) giữ trọn đoạn văn nêu rõ điều kiện ăn 1 quả táo mỗi ngày và ngoại lệ khi ăn kèm xốt cà chua, sữa chua, xúp đóng hộp có thêm fructose."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "score": 0,
+      "top_evidence_chunk": "None (Ranks 1-3: p.154, p.147, p.154)",
+      "reason": "Không có bằng chứng: Top-3 nói về thuốc nhuận tràng (trang 154) và định nghĩa táo bón (trang 147), không truy xuất được trang 149 nói về cơ chế của chất xơ."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_B_p320_c01 (Rank 1, p.320)",
+      "reason": "Rank 1 (trang 320) chứa trọn đoạn văn trả lời đầy đủ cả câu hỏi chính lẫn điều kiện ngoại lệ và truy nguồn chính xác."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_B_p392_c01 (Rank 1, p.392)",
+      "reason": "Khác với A, chunk theo đoạn của B giữ nguyên vẹn toàn bộ mục chú thích [6] Insulin từ đầu đến cuối trên trang 392, đủ 100% ngữ cảnh và điều kiện để trả lời."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_C_p055_c00 (Rank 2, p.55)",
+      "reason": "Rank 2 (trang 55) chứa đầy đủ bằng chứng diện tích bề mặt ống tiêu hóa gấp khoảng 100 lần diện tích da."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_C_p090_c00 (Rank 1, p.90)",
+      "reason": "Rank 1 (trang 90) chứa đầy đủ bằng chứng và điều kiện ngoại lệ về chứng không dung nạp fructose."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "score": 0,
+      "top_evidence_chunk": "None (Ranks 1-3: p.154, p.147, p.154)",
+      "reason": "Không có bằng chứng: Dù đã lọc đúng phạm vi PHAN_2, embedding câu hỏi vẫn xếp trang 154 (thuốc nhuận tràng) và 147 (định nghĩa táo bón) cao hơn trang 149 (chất xơ)."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_C_p320_c01 (Rank 1, p.320)",
+      "reason": "Rank 1 (trang 320) chứa đầy đủ bằng chứng và ngoại lệ khi dùng chất diệt khuẩn trong gia đình."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "score": 2,
+      "top_evidence_chunk": "ruot-oi-la-ruot_C_p392_c01 (Rank 1, p.392)",
+      "reason": "Rank 1 (trang 392) giữ trọn mục chú thích [6] Insulin và nhờ filter part=CHU_THICH nên cả 3 chunk top-3 đều nằm đúng trong phần Chú thích."
+    }
+  ]
+}
