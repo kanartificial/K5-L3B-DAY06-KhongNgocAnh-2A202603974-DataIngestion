@@ -1,0 +1,270 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong Lời nói đầu, tác giả cho biết mình chào đời bằng phương pháp nào và gặp vấn đề dung nạp gì đầu tiên khi còn nhỏ?",
+    "expected_answer": "Tác giả sinh ra bằng phương pháp mổ đẻ, không được bú sữa mẹ và đầu tiên mắc chứng không dung nạp lactose.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 4,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Tôi được sinh ra bằng phương pháp mổ đẻ và không được bú\nsữa mẹ. Điều đó khiến tôi trở thành một điển hình cho những\nđứa trẻ mắc các bệnh về đường ruột ở thế kỷ 21. Nếu lúc ấy tôi\nhiểu biết nhiều hơn về đường ruột, hẳn tôi đã có thể đặt cược\nvào những chứng bệnh mà mình có thể mắc phải sau này. Đầu\ntiên tôi bị chứng không dung nạp lactose.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Sự khác biệt về mặt kiểm soát ý thức giữa cơ thắt ngoài và cơ thắt trong ở hậu môn là gì?",
+    "expected_answer": "Cơ thắt ngoài chịu sự điều khiển có ý thức của chúng ta (đóng/mở theo lệnh não bộ), trong khi cơ thắt trong đại diện cho tiềm thức và không thể kiểm soát một cách có ý thức.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 16,
+    "alternative_gold_pages": [
+      17,
+      18
+    ],
+    "evidence_quote": "Mỗi loại cơ thắt chịu sự chi phối của một hệ thần kinh khác\nnhau. Cơ thắt ngoài tuân thủ hoàn toàn theo sự điều khiển của\nchúng ta. Khi bộ não của chúng ta cho nó biết rằng đây là thời\nđiểm không thích hợp để đi vệ sinh thì cơ thắt ngoài sẽ tuân\ntheo và luôn đóng kín lại. Cơ thắt trong đại điện cho thế giới\ntiềm thức của chúng ta.",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo kết quả nghiên cứu thực nghiệm về tư thế đi vệ sinh, thời gian trung bình để đi ngoài ở tư thế ngồi xổm và tư thế ngồi bệt lần lượt là bao nhiêu giây?",
+    "expected_answer": "Ở tư thế ngồi xổm trung bình mất 50 giây (kèm cảm giác thỏa mãn hoàn toàn), còn ở tư thế ngồi bệt trung bình mất 130 giây.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 22,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Ở tư thế ngồi xổm,\nthời gian trung bình để đi ngoài là 50 giây kèm cảm giác thực sự\nnhẹ nhõm và thỏa mãn. Ở tư thế ngồi bệt, thời gian trung bình\nlà 130 giây kèm cảm giác thỏa mãn không hoàn toàn.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Nước bọt được hình thành từ đâu và vì sao nước bọt lại không có màu đỏ của máu?",
+    "expected_answer": "Nước bọt về cơ bản là máu đã được lọc qua các tuyến nước bọt; các tuyến này chặn lại tế bào hồng cầu (vốn cần cho động mạch chứ không phải miệng) nhưng vẫn cho canxi, hoóc-môn và sản phẩm miễn dịch đi vào.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 31,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Nước bọt về cơ bản chính là\nmáu đã được lọc. Các tuyến nước bọt lọc máu, chặn lại các tế bào\nhồng cầu vốn cần thiết cho các động mạch chứ không phải cho\nmiệng. Nhưng canxi, hoóc-môn và một số sản phẩm khác của\nhệ miễn dịch cũng đi vào nước bọt từ máu.",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Các nốt nhấp nhô ở vùng cuống lưỡi được bác sĩ gọi là gì và chúng thực hiện nhiệm vụ miễn dịch như thế nào?",
+    "expected_answer": "Bác sĩ gọi là hạnh nhân lưỡi; chúng kiểm tra mọi thứ ta nuốt bằng cách bắt giữ các phân tử nhỏ từ thức ăn, đồ uống hoặc không khí hít vào để huấn luyện đội quân tế bào miễn dịch bên trong.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 36,
+    "alternative_gold_pages": [
+      37
+    ],
+    "evidence_quote": "Khi ngón tay tiến\nđến được cuống lưỡi, bạn sẽ thấy nó hơi nhấp nhô ở đó, vai trò\ncủa các nốt này - bác sĩ gọi là hạnh nhân lưỡi - là để kiểm tra mọi\nthứ mà chúng ta nuốt. Để làm được điều đó, chúng bắt lấy\nnhững phân tử nhỏ của bất kỳ thứ gì mà chúng ta ăn, uống hoặc\nhít để đưa vào bên trong.",
+    "filter": {
+      "part": "PHAN_1"
+    },
+    "filter_context_note": "Ngữ cảnh người dùng đang tra cứu cấu trúc giải phẫu trong Phần Một: Cảm nhận về ruột (part = PHAN_1)."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Nhờ đặc điểm cấu tạo nào mà sau khi ăn no chúng ta đi bộ không bị ợ hơi liên tục và khi cười nhiều dù có thể lỡ xả ra một chút khí cười nhưng hiếm khi bị nôn ói?",
+    "expected_answer": "Nhờ thực quản nối vào dạ dày ở thành bên (chỉ chịu một phần áp lực) cùng góc kết nối thông minh và cơ chế đóng của nó.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 46,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Khi nối vào dạ dày ở thành bên, thực quản chỉ phải\nchịu một phần áp lực. Nhờ vậy mà chúng ta có thể đi bộ sau khi\năn một bữa thật no mà không bị ợ hơi liên tục. Chúng ta nên\nbiết ơn góc kết nối thông minh này của thực quản và cơ chế\nđóng của nó vì nhờ đó mà dù cho khi cười nhiều chúng ta có thể\nsẽ bị mất kiểm soát cơ thắt ngoài hậu môn một chút và sơ suất\nxả ra một chút “khí cười”, nhưng hầu như hiếm khi nào chúng\nta bị nôn ói.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hội chứng Gilbert ảnh hưởng tới khoảng bao nhiêu phần trăm dân số thế giới, hoạt động của men phân hủy tế bào máu giảm còn bao nhiêu phần trăm và người mắc hội chứng này nên tránh dùng loại thuốc nào?",
+    "expected_answer": "Ảnh hưởng khoảng 8% dân số thế giới; men phân hủy tế bào máu chỉ hoạt động ở mức 30% so với bình thường; người mắc nên tránh dùng thuốc acetaminophen.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 98,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Trong hội chứng\nnày, một trong các loại men tham gia vào quá trình phân hủy\ncủa các tế bào máu chỉ hoạt động ở mức 30% so với năng lực\nbình thường của nó. Có nghĩa là lượng sắc tố đi vào ruột trở nên\nít hơn. Hội chứng Gilbert tương đối phổ biến, nó ảnh hưởng tới\nkhoảng 8% dân số thế giới. Việc thiếu loại men này không gây\nhại và hầu như không gây ra vấn đề gì cho người mắc phải\nchứng này. Tác dụng phụ duy nhất của nó là làm giảm dung nạp\nvới thuốc acetaminophen, nên những người bị hội chứng\nGilbert nên tránh dùng loại thuốc này.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong khoang miệng, cơ nào khỏe nhất, cơ vân nào mềm dẻo nhất, chất nào cứng nhất do cơ thể người tạo ra và mỗi răng hàm chịu được áp lực tối đa bao nhiêu kilôgam?",
+    "expected_answer": "Cơ khỏe nhất là cơ nhai, cơ vân mềm dẻo nhất là lưỡi, chất cứng nhất là men răng, và hàm tạo áp lực tới 80 kg lên mỗi răng hàm.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 110,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Loại cơ khỏe nhất trong cơ\nthể chúng ta là cơ nhai; loại cơ vân (chứ không phải cơ trơn)\nmềm dẻo nhất trong cơ thể chính là lưỡi. Khi phối hợp với nhau,\nchúng không chỉ là những cỗ máy nghiền kinh khủng mà còn là\nnhững người vận hành máy nhanh nhẹn. Một ứng viên khác\ncho danh sách kỷ lục này là men răng. Men răng là chất cứng\nnhất được tạo ra bởi cơ thể người. Và nó cần cứng như vậy bởi vì\nhàm của chúng ta tạo ra một áp lực tới 80 ki lô gam lên trên mỗi\nrăng hàm",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Vì sao việc ngừng hút thuốc lá thường giúp cải thiện chứng ợ chua và trào ngược dạ dày - thực quản?",
+    "expected_answer": "Vì hút thuốc lá kích thích vùng não bộ giống khi ăn uống, đánh lừa não tiết nhiều dịch vị dù không ăn gì và làm cơ thắt giữa thực quản và dạ dày dãn ra.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 127,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Hút thuốc lá gây kích thích những vùng não bộ vốn cũng\nđược kích hoạt bởi việc ăn uống. Điều này có thể tạo ra cảm giác\nthỏa mãn, nhưng nó cũng đánh lừa não bộ tạo ra nhiều dịch vị\nmặc dù ta không ăn gì cả, cũng như làm cho cơ thắt giữa thực\nquản và dạ dày dãn ra. Đó là lý do tại sao ngưng hút thuốc lá\nthường giúp cải thiện chứng ợ chua và trào ngược.",
+    "filter": {
+      "part": "PHAN_2"
+    },
+    "filter_context_note": "Ngữ cảnh người dùng đang tìm hiểu cơ chế bệnh lý trong Phần Hai: Hệ thần kinh của ruột (part = PHAN_2)."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Trong tình huống khẩn cấp ngắn hạn so với khi căng thẳng kéo dài lâu dài, ruột phản ứng với mệnh lệnh từ não bộ qua dây thần kinh giao cảm như thế nào?",
+    "expected_answer": "Trong tình huống khẩn cấp ngoại lệ, ruột tuân lệnh não tiết kiệm năng lượng tiêu hóa, tạo ít chất nhầy và giảm lưu lượng máu tới ruột; nhưng nếu kéo dài lâu dài, ruột không chịu bị lợi dụng nữa và gửi các tín hiệu khó chịu ngược lại cho não.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 180,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Nó đủ tử tế để tiết kiệm năng\nlượng vốn dành cho việc tiêu hóa, tạo ra ít chất nhầy hơn và\ngiảm lưu lượng máu tới ruột.\nTuy nhiên, hệ thống này không thích hợp cho việc sử dụng\nlâu dài. Nếu não cứ liên tục nghĩ rằng đây là một tình huống\nkhẩn cấp, nó bắt đầu lợi dụng sự phục tùng của ruột một cách\nthái quá. Khi điều đó xảy ra, ruột bị ép phải gửi đi những tín\nhiệu khó chịu tới não để cho não biết rằng nó không muốn bị lợi\ndụng nữa.",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hệ vi khuẩn đường ruột của con người có thể nặng tới bao nhiêu kilôgam và chứa tổng cộng bao nhiêu vi khuẩn?",
+    "expected_answer": "Hệ vi khuẩn đường ruột có thể nặng tới 2 kg và chứa tổng cộng khoảng 100 ngàn tỷ vi khuẩn (số vi khuẩn trong 1 gam phân còn nhiều hơn dân số Trái Đất).",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 201,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Hệ vi khuẩn đường ruột của chúng ta có thể có cân nặng\ntới 2 kg và chứa tổng cộng 100 ngàn tỷ vi khuẩn. Số lượng vi\nkhuẩn trong 1 gam shịt còn nhiều hơn số người trên Trái Đất.",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Tại sao các tế bào hồng cầu có protein bề mặt rất giống vi khuẩn nhưng hệ miễn dịch của chúng ta lại không tấn công chính tế bào máu của cơ thể?",
+    "expected_answer": "Vì hệ miễn dịch đã được học trong trại huấn luyện rằng máu là một vùng không được đụng đến, nên không tấn công các tế bào máu của chính cơ thể hoặc máu truyền cùng nhóm.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 210,
+    "alternative_gold_pages": [
+      211
+    ],
+    "evidence_quote": "Ví dụ như các tế bào hồng cầu,\nchúng có các protein trên bề mặt rất giống ở vi khuẩn. Hệ miễn\ndịch của chúng ta có lẽ đã tấn công chính tế bào máu của cơ thể\nnếu nó đã không được học trong trại huấn luyện rằng máu là\nmột vùng không được đụng đến.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Sinh vật nhân chuẩn (Eukaryote) có đặc điểm tế bào như thế nào và các nhà sinh vật học hiện đại chia chúng thành mấy phân nhóm?",
+    "expected_answer": "Eukaryote được tạo thành từ những tế bào lớn nhất và phức tạp nhất (có thể ở dạng đa bào như cá voi, con người, kiến) và được các nhà sinh vật học hiện đại phân chia thành 6 phân nhóm.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 232,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Eukaryote (sinh vật nhân chuẩn) được tạo thành từ những tế\nbào lớn nhất và phức tạp nhất. Chúng có thể ở dạng đa bào và\ntăng trưởng tới một kích thước khá ấn tượng. Một con cá voi là\nmột eukarote. Loài người là eukaryote. Thật tình cờ là kiến cũng\nlà eukaryote, mặc dù chúng nhỏ hơn chúng ta rất nhiều. Các\nnhà sinh vật học hiện đại phân chia eukaryote thành sáu phân\nnhóm",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao loài bò có thể tiêu hóa hiệu quả các phức hợp carbohydrate thực vật mà không cần tự mình xử lý trước?",
+    "expected_answer": "Vì bò giữ các vi khuẩn (như Bacteroides và đồng nghiệp) ở ngay phần trên cùng của đường tiêu hóa để chuyển hóa các phức hợp carbohydrate phức tạp từ thực vật thành chất dễ tiêu hóa.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 255,
+    "alternative_gold_pages": [
+      256
+    ],
+    "evidence_quote": "Bò giữ\ncác vi khuẩn của chúng ở ngay phần trên cùng của đường tiêu\nhóa. Loài bò thậm chí không thèm cố gắng tự mình tiêu hóa\nthức ăn trước, mà giao luôn những phức hợp Carbohydrate\nphức tạp từ thực vật cho các vi khuẩn Bacteroides và đồng\nnghiệp của chúng. Các vi khuẩn của bò sẽ chuyển Carbohydrate\nthành những thứ dễ dàng tiêu hóa cho bò.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Cortisone là loại hormone có tác dụng gì và thường được dùng để điều trị chứng bệnh nào?",
+    "expected_answer": "Cortisone (Corticoid, Glucocorticoid) là hormone có tác dụng kháng viêm, làm giảm phản ứng phòng vệ tự nhiên của cơ thể và giảm các triệu chứng như sưng tấy, thường dùng để điều trị chứng dị ứng.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 391,
+    "alternative_gold_pages": [],
+    "evidence_quote": "[1] Cortisone: (Corticoid, Glucocorticoid) là một loại hormone có\ntác dụng kháng viêm, giảm phản ứng phòng vệ tự nhiên của cơ\nthể và các triệu chứng như sưng tấy, là một loại thuốc kháng\nviêm, hay được dùng để điều trị chứng dị ứng.",
+    "filter": {
+      "part": "CHU_THICH"
+    },
+    "filter_context_note": "Ngữ cảnh người dùng đang tra cứu định nghĩa thuật ngữ trong mục Chú thích cuối sách (part = CHU_THICH)."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Tổng diện tích bề mặt của ống tiêu hóa lớn gấp khoảng bao nhiêu lần so với diện tích da của cơ thể chúng ta?",
+    "expected_answer": "Tổng diện tích bề mặt của ống tiêu hóa lớn gấp khoảng 100 lần so với diện tích da của chúng ta.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 55,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Tại sao ruột non cần phải lớn như thế? Tổng diện tích bề mặt\ncủa ống tiêu hóa lớn gấp khoảng 100 lần so với diện tích da của\nchúng ta.",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Đối với người bị chứng không dung nạp fructose, khi nào việc ăn một quả táo mỗi ngày hầu như không gây ra vấn đề gì và ngoại lệ nào khiến họ gặp rắc rối?",
+    "expected_answer": "Ăn một quả táo mỗi ngày hầu như không gây vấn đề gì trừ phi các thực phẩm khác họ ăn trong ngày bị cho thêm fructose (như xốt cà chua chấm khoai tây rán, chất làm ngọt trong sữa chua ăn sáng, hoặc xúp đóng hộp ăn trưa) làm chất vận chuyển GLUT5 bị quá tải.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 90,
+    "alternative_gold_pages": [
+      91
+    ],
+    "evidence_quote": "Đối với những người bị chứng không dung nạp fructose, ăn\nmột quả táo mỗi ngày hầu như không gây ra vấn đề gì, trừ phi\nnhững thứ khác mà họ ăn được cho thêm fructose, chẳng hạn\nnhư xốt cà chua để chấm với khoai tây rán, chất làm ngọt trong\nsữa chua ăn bữa sáng và xúp đóng hộp để hâm nóng ăn trưa.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Chất xơ hỗ trợ những người bị táo bón nhẹ hoặc ngắn hạn bằng cách nào khi đi qua đường tiêu hóa?",
+    "expected_answer": "Chất xơ không bị hấp thu ở ruột non mà đi đến ruột già và tác động vào thành ruột già, giúp tăng cường hoạt động của thành ruột và giúp phân dễ di chuyển hơn.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 149,
+    "alternative_gold_pages": [
+      150
+    ],
+    "evidence_quote": "Có một vài mẹo nhỏ giúp ích cho những người bị táo bón nhẹ\nhoặc ngắn hạn. Các mẹo này giúp giảm đi sự ức chế và giúp cho\nphân dễ di chuyển trong ruột:\nCó một loại thức ăn có thể giúp tăng cường hoạt động của\nthành ruột: chất xơ. Chất xơ không được hấp thu ở ruột non, nó\nđến và gõ vào thành ruột già",
+    "filter": {
+      "part": "PHAN_2"
+    },
+    "filter_context_note": "Ngữ cảnh người dùng đang đọc chương Táo bón trong Phần Hai: Hệ thần kinh của ruột (part = PHAN_2)."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Theo tác giả, các chất diệt khuẩn có nên dùng trong sinh hoạt gia đình bình thường không và chỉ nên dùng trong những trường hợp ngoại lệ nào?",
+    "expected_answer": "Không nên dùng trong sinh hoạt gia đình bình thường (vì hơn 95% vi khuẩn trên thế giới là vô hại); chỉ nên dùng khi trong gia đình có người ốm hoặc khi chó trong nhà đi vệ sinh lên tấm thảm.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 320,
+    "alternative_gold_pages": [],
+    "evidence_quote": "Hơn 95% các vi khuẩn trên thế giới là vô hại đối với con\nngười. Nhiều loại vi khuẩn cực kỳ có lợi. Các chất diệt khuẩn\nkhông nên được dùng trong sinh hoạt gia đình bình thường. Nó\nchỉ nên được dùng khi trong gia đình có người ốm hoặc khi chú\nchó trong nhà đi ị lên tấm thảm.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Insulin được tổng hợp ở tế bào nào trong đảo tụy và giữ vai trò duy nhất gì đối với nồng độ Glucose trong máu?",
+    "expected_answer": "Insulin được tổng hợp ở tế bào Beta trong đảo tụy ở tuyến tụy và là tác nhân duy nhất trong cơ thể có thể làm giảm nồng độ Glucose trong máu.",
+    "gold_source_id": "ruot-oi-la-ruot",
+    "gold_page": 392,
+    "alternative_gold_pages": [],
+    "evidence_quote": "[6] Insulin là một loại hormone từ các tế bào đảo tụy ở tuyến tụy\ntiết ra. Chúng có tác dụng chuyển hóa các chất carbohydrate\ntrong cơ thể. Insulin còn có tác dụng đến việc chuyển hóa các\nmô mỡ và gan thành loại năng lượng ATP để cung cấp cho hoạt\nđộng của cơ thể. Insulin được tổng hợp ở tế bào Beta trong đảo\ntụy bằng sự hoạt động của bộ máy tổng hợp protein trong tế\nbào. Insulin cũng là tác nhân duy nhất trong cơ thể có thể làm\ngiảm nồng độ Glucose trong máu.",
+    "filter": {
+      "part": "CHU_THICH"
+    },
+    "filter_context_note": "Ngữ cảnh người dùng đang tra cứu định nghĩa hormone trong mục Chú thích cuối sách (part = CHU_THICH)."
+  }
+]
