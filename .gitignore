@@ -1,7 +1,9 @@
 __pycache__/
 .venv/
+starter/.venv/
 .env
 *.pyc
+ruotoilaruot.pdf
 
 .env.*
 !.env.example
